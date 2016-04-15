@@ -9,6 +9,17 @@ management:
   security:
     role: ADMIN
 
+info:
+  build:
+    artifact: hello-spring-boot
+    name: hello-spring-boot
+    description: Demo project for Spring Boot
+    version: 0.0.1-SNAPSHOT
+
+endpoints:
+  health:
+    sensitive: false
+
 ---
 
 spring:
