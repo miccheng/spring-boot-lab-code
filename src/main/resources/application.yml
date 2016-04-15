@@ -20,6 +20,17 @@ endpoints:
   health:
     sensitive: false
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+   io:
+    pivotal:
+      singapore: DEBUG
+
 ---
 
 spring:
